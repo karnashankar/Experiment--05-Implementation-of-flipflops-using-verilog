@@ -102,39 +102,46 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
 ### Procedure
-/* write all the steps invloved */
-
-
+##### 1.Open Quartus II and select new project and choose the file location.
+##### 2.Module Declaration. Module should have the file name. 
+##### 3.Declare Inputs and outputs.
+##### 4.Use assign declaration and wire to define the functionality of logic circuits. 
+##### 5.End the program with endmodule. 6.Run the program and choose RTL viewer to get RTL realization.
 
 ### PROGRAM 
-/*
-Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
 
-
-
-
-
+##### Program for flipflops  and verify its truth table in quartus using Verilog programming.
+##### Developed by:karna s
+##### RegisterNumber:22008977
+![image](https://user-images.githubusercontent.com/121109150/214827966-6b2ba03e-d138-408a-a9df-58eb175ae7a7.png)
+![image](https://user-images.githubusercontent.com/121109150/214828022-57e88596-fcf4-4286-934e-007a7de590a9.png)
 
 ### RTL LOGIC FOR FLIPFLOPS 
+##### SR FLIP FLOP:
+![image](https://user-images.githubusercontent.com/121109150/214828597-199d20a3-1ff5-450c-b3ea-51dd5fc771dc.png)
 
+##### D FLIP FLOP:
+![image](https://user-images.githubusercontent.com/121109150/214828653-52215f53-7b1c-4122-9a96-1892bac95c8f.png)
 
+##### JK FLIP FLOP:
+![image](https://user-images.githubusercontent.com/121109150/214828700-baffbc8a-781c-4a05-9510-f2835559fc9e.png)
 
+##### T FLIP FLOP:
 
-
-
-
-
+![image](https://user-images.githubusercontent.com/121109150/214828758-405b7d83-ff71-49d1-bca3-c0f67a15f260.png)
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
+##### SR FLIP FLOP:
+![image](https://user-images.githubusercontent.com/121109150/214828799-ded33c6d-fe56-4e4a-bbc1-145239264b6c.png)
 
+##### D FLIP FLOP:
+![image](https://user-images.githubusercontent.com/121109150/214828852-5b7f7bb3-5572-42fb-86b2-7d819da5e205.png)
 
+##### JK FLIP FLOP:
+![image](https://user-images.githubusercontent.com/121109150/214828893-d2319507-08b5-4cad-be93-8b0f9940a10c.png)
 
-
-
-
-
+##### T FLIP FLOP:
+![image](https://user-images.githubusercontent.com/121109150/214828939-da270853-cf97-4867-8ef5-2ba25f8abf29.png)
 
 ### RESULTS 
+All the flipflops are implemented using verilog and their functionality has been validated using their functional tables.
